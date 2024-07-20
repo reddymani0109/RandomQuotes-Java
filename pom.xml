@@ -125,12 +125,12 @@
 				<repository>
 					<id>artifactory</id>
 					<name>Artifactory</name>
-					<url>http://localhost:8041/artifactory/Maven</url>
+					<url>https://reddyartifactory.jfrog.io/artifactory/maven-libs-snapshot-local/</url>
 				</repository>
 				<snapshotRepository>
 					<id>artifactorysnapshots</id>
 					<name>Artifactory-Snapshots</name>
-					<url>http://localhost:8041/artifactory/Maven</url>
+					<url>https://reddyartifactory.jfrog.io/artifactory/maven-libs-snapshot-local/</url>
 				</snapshotRepository>
 			</distributionManagement>
 		</profile>
